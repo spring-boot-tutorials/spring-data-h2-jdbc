@@ -31,13 +31,13 @@ public class JdbcApplication implements CommandLineRunner {
 	}
 
 	@Autowired
-	private JdbcTemplate jdbcTemplate;
+	JdbcTemplate jdbcTemplate;
 
 	@Autowired
-	private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
+	NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
 	@Autowired
-	private DataSource dataSource;
+	DataSource dataSource;
 
 
 	@Override
