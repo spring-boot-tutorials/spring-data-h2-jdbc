@@ -1,0 +1,1 @@
+see: http://spring-guides.marcuschiu.com/spring-data/h2/spring-boot-h2-jdbc.html
